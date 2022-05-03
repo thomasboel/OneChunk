@@ -1,0 +1,6 @@
+name: One Chunk
+version: ${project.version}
+main: com.javabuckets.onechunk.OneChunk
+api-version: 1.18
+authors: [ JavaBuckets, arvinam ]
+description: Finish the game of Minecraft, one chunk at a time.
