@@ -6,7 +6,7 @@
 
     <groupId>com.javabuckets</groupId>
     <artifactId>one-chunk</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.13</version>
     <packaging>jar</packaging>
 
     <name>OneChunk</name>
