@@ -41,14 +41,14 @@ public final class OneChunk extends JavaPlugin {
     unlockedChunks.add(startChunk);
     players.addAll(Bukkit.getOnlinePlayers());
 
-    setupScoreboard(startChunk);
+    setupScoreboardForChunk(startChunk);
 
     worldBorder = startChunk.getWorld().getWorldBorder();
     worldBorder.setCenter(getChunkCenter(startChunk));
     worldBorder.setSize(16);
   }
 
-  public static void setupScoreboard(Chunk chunk) {
+  public static void setupScoreboardForChunk(Chunk chunk) {
     scoreboardManager = Bukkit.getScoreboardManager();
     board = scoreboardManager.getNewScoreboard();
 
